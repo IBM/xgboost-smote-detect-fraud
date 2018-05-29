@@ -79,6 +79,8 @@ Use `Find and Add Data` (look for the `10/01` icon)
 and its `Files` tab. From there you can click
 `browse` and add data files from your computer.
 
+Note: The data file in the `data` directory - `creditcard.csv` has been downloaded from https://www.kaggle.com/mlg-ulb/creditcardfraud/data . The data file used in this pattern is the subset of the original data downloaded from Kaggle where random samples of 20% observations has been extracted from the original data. 
+
 ![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/add_file.png)
 
 Note: The data file is in the `data` directory

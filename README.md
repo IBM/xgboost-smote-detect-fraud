@@ -2,17 +2,18 @@
 
 Credit-card fraud is a growing problem worldwide which costs upwards of billions of dollars per year. It is a wide-ranging term for theft and fraud committed using or involving a payment card, such as a credit card or debit card, as a fraudulent source of funds in a transaction. The purpose may be to obtain goods without paying, or to obtain unauthorized funds from an account. According to 2016 data released by ACI Worldwide and financial industry consultant Aite Group, nearly 1 in 3 consumers globally have been victimized by card fraud in the past five years. The benchmark survey also reported that 14 of the 17 countries surveyed experienced an increase in card fraud between 2014 and 2016. A 2016 iovation/Aite Group study projected impact on financial fraud reports that credit card fraud losses may climb to as much as $10 billion in the United States alone by 2020. Therefore, it becomes the need of the hour to use technology and reduce these alarming numbers.
 
-Predictive analytics uses historical data to predict future events. Typically, historical data is used to build a mathematical model that captures important trends. That predictive model is then used on current data to predict what will happen next, or to suggest actions to take for optimal outcomes. We use the same approach to draw a solution to the credit card fraud detection problem Fraudulent transactions are costly, but it is too expensive and inefficient to investigate every transaction for fraud. Even if possible, investigating innocent customers could prove to be a very poor customer experience, leading some clients to leave the business. Hence, using a predicative model we can automatically identify and prioritize likely fraudulent activity. Fraud units can then investigate only those incidents likely to require it. As compared to the other solutions present, this is an efficient, and an accurate solution devoid of human error. We aim to minimize instances where it is predicted as fraud but it is not actually fraud(FP) and those where it is fraud but is not predicted as one(FN).
+Predictive analytics uses historical data to predict future events. Typically, historical data is used to build a mathematical model that captures important trends. That predictive model is then used on current data to predict what will happen next, or to suggest actions to take for optimal outcomes. We use the same approach to draw a solution to the credit card fraud detection problem Fraudulent transactions are costly, but it is too expensive and inefficient to investigate every transaction for fraud. Even if possible, investigating innocent customers could prove to be a very poor customer experience, leading some clients to leave the business. Hence, using a predicative model we can automatically identify and prioritize likely fraudulent activity. Fraud units can then investigate only those incidents likely to require it. As compared to the other solutions present, this is an efficient, and an accurate solution devoid of human error. We aim to minimize instances where it is predicted as fraud but it is not actually fraud(False Positives) and those where it is fraud but is not predicted as one(False Negatives).
 
 When the reader has completed this code pattern, they will understand how to:
 
 * Build predictive models using Bagging & Boosting statistical techniques.
-* Sample the data to create a balance between the majority & minority populations.
-* How the sampling techniques can give a lift to the accuracy of the predictive model.
+* Run different statistical models and evaluate the results.
+* Sample the data to create a balance between the majority & minority populations to handle imbalanced data.
+* Demonstrate how the sampling techniques can give a lift to the accuracy of the predictive model.
 
 # Architecture Diagram
 
-![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/architecture.png)
+![](blob/master/image/architecture.png)
 
 1. User logs into Watson Studio, creates an instance which includes object storage.
 2. User uploads the csv file to the object storage.
@@ -71,7 +72,7 @@ Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/). By creating a p
 * Select the free Anaconda runtime.
 * Click the `Create` button.
 
-![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/create_notebook.PNG)
+![](blob/master/image/create_notebook.PNG)
 
 ## 4. Add the data
 

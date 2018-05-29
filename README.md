@@ -13,7 +13,7 @@ When the reader has completed this code pattern, they will understand how to:
 
 # Architecture Diagram
 
-![](blob/master/image/architecture.png)
+![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/architecture.png)
 
 1. User logs into Watson Studio, creates an instance which includes object storage.
 2. User uploads the csv file to the object storage.
@@ -72,7 +72,7 @@ Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/). By creating a p
 * Select the free Anaconda runtime.
 * Click the `Create` button.
 
-![](blob/master/image/create_notebook.PNG)
+![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/create_notebook.PNG)
 
 ## 4. Add the data
 

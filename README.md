@@ -2,9 +2,11 @@
 
 > We will demonstrate the methodology to build predictive models on imbalanced data by selecting an example of fraudulent transactions in the financial institutions. This methodology can be applied to any domain to generate predictive system on imbalanced data.
 
+> The data file in the `data` directory - `creditcard.csv` has been downloaded from https://www.kaggle.com/mlg-ulb/creditcardfraud/data . The data file used in this pattern is the subset of the original data downloaded from Kaggle where random samples of 20% observations has been extracted from the original data. 
+
 Credit-card fraud is a growing problem worldwide which costs upwards of billions of dollars per year. It is a wide-ranging term for theft and fraud committed using or involving a payment card, such as a credit card or debit card, as a fraudulent source of funds in a transaction. The purpose may be to obtain goods without paying, or to obtain unauthorized funds from an account. According to 2016 data released by ACI Worldwide and financial industry consultant Aite Group, nearly 1 in 3 consumers globally have been victimized by card fraud in the past five years. The benchmark survey also reported that 14 of the 17 countries surveyed experienced an increase in card fraud between 2014 and 2016. A 2016 iovation/Aite Group study projected impact on financial fraud reports that credit card fraud losses may climb to as much as $10 billion in the United States alone by 2020. Therefore, it becomes the need of the hour to use technology and reduce these alarming numbers.
 
-Predictive analytics uses historical data to predict future events. Typically, historical data is used to build a mathematical model that captures important trends. That predictive model is then used on current data to predict what will happen next, or to suggest actions to take for optimal outcomes. We use the same approach to draw a solution to the credit card fraud detection problem Fraudulent transactions are costly, but it is too expensive and inefficient to investigate every transaction for fraud. Even if possible, investigating innocent customers could prove to be a very poor customer experience, leading some clients to leave the business. Hence, using a predicative model we can automatically identify and prioritize likely fraudulent activity. Fraud units can then investigate only those incidents likely to require it. As compared to the other solutions present, this is an efficient, and an accurate solution devoid of human error. We aim to minimize instances where it is predicted as fraud but it is not actually fraud(False Positives) and those where it is fraud but is not predicted as one(False Negatives).
+Predictive analytics uses historical data to predict future events. Typically, historical data is used to build a mathematical model that captures important trends. That predictive model is then used on current data to predict what will happen next, or to suggest actions to take for optimal outcomes. We use the same approach to draw a solution to the credit card fraud detection problem Fraudulent transactions are costly, but it is too expensive and inefficient to investigate every transaction for fraud. Even if possible, investigating innocent customers could prove to be a very poor customer experience, leading some clients to leave the business. Hence, using a predicative model we can automatically identify and prioritize likely fraudulent activity. Fraud units can then investigate only those incidents likely to require it. As compared to the other solutions present, this is an efficient, and an accurate solution devoid of human error. We aim to minimize instances where it is predicted as fraud but it is not actually "fraud (False Positives)" and those where it is fraud but is not predicted as "one (False Negatives)."
 
 When the reader has completed this code pattern, they will understand how to:
 
@@ -48,19 +50,19 @@ When the reader has completed this code pattern, they will understand how to:
 Follow these steps to setup and run this code pattern. The steps are
 described in detail below.
 
-1. [Sign up for IBM Cloud](#1-sign-up-for-ibm-cloud)
-1. [Sign up for Watson Studio](#2-sign-up-for-watson-studio)
+1. [Create an account with IBM Cloud](#1-create-an-account-with-ibm-cloud)
+1. [Create a new Watson Studio project](#2-create-a-new-watson-studio-project)
 1. [Create the notebook](#3-create-the-notebook)
 1. [Add the data](#4-add-the-data)
 1. [Insert the dataframe](#5-insert-the-dataframe)
 1. [Run the notebook](#6-run-the-notebook)
 1. [Analyze the results](#7-analyze-the-results)
 
-## 1. Sign up for IBM Cloud
+## 1. Create an account with IBM Cloud
 
 Sign up for IBM [**Cloud**](https://console.bluemix.net/). By clicking on create a free account you will get 30 days trial account.
 
-## 2. Sign up for Watson Studio
+## 2. Create a new Watson Studio project
 
 Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/). By creating a project in Watson Studio a free tier ``Object Storage`` service will be created in your IBM Cloud account. Choose the storage type as Cloud Object Storage for this code pattern.
 
@@ -82,8 +84,6 @@ Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/). By creating a p
 Use `Find and Add Data` (look for the `10/01` icon)
 and its `Files` tab. From there you can click
 `browse` and add data files from your computer.
-
-Note: The data file in the `data` directory - `creditcard.csv` has been downloaded from https://www.kaggle.com/mlg-ulb/creditcardfraud/data . The data file used in this pattern is the subset of the original data downloaded from Kaggle where random samples of 20% observations has been extracted from the original data. 
 
 ![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/add_file.png)
 
@@ -124,6 +124,8 @@ There are several ways to execute the code cells in your notebook:
 We can evaluate the statistical outputs in this section after each run of the model & play around with hyper parameters for better results. 
 
 ![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/analyze_results.PNG)
+
+We can tune the model to enhance the F1 score, recall & precision scores as per our requirement. Since the data is highly 
 
 ###  The flow of the whole process could be summed up in the following diagram
 

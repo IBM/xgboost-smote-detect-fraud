@@ -64,7 +64,15 @@ Sign up for IBM [**Cloud**](https://console.bluemix.net/). By clicking on create
 
 ## 2. Create a new Watson Studio project
 
-Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/). By creating a project in Watson Studio a free tier ``Object Storage`` service will be created in your IBM Cloud account. Choose the storage type as Cloud Object Storage for this code pattern.
+Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/). 
+
+Click on New project and select Data Science as per below.
+![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/new_project.PNG)
+
+Define the project by giving a Name and hit 'Create'.
+![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/define_project.PNG)
+
+By creating a project in Watson Studio a free tier ``Object Storage`` service will be created in your IBM Cloud account. Choose the storage type as Cloud Object Storage for this code pattern.
 
 ## 3. Create the notebook
 
@@ -125,13 +133,15 @@ We can evaluate the statistical outputs in this section after each run of the mo
 
 ![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/analyze_results.PNG)
 
-We can tune the model to enhance the F1 score, recall & precision scores as per our requirement. Since the data is highly 
+We can tune the model to enhance the F1 score, recall & precision scores as per our requirement. Since the data is highly imbalanced, the accuracy metric results alone would not suffice. We can explore more on "parameters tuning for optimisation (which is a iterative process)" on all the three statistical techniques and evaluate the results. 
+
+Depending on the system configueration, we can select the Bagging or Boosting Algorithm. Bagging improves accuracy of machine learning algorithms by creating aggregated models with less variance. Boosting is an ensemble technique which emphasizes on training for weak learners to create a strong learner that can make accurate predictions.
 
 ###  The flow of the whole process could be summed up in the following diagram
 
 ![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/flow.PNG)
 
-When faced with imbalanced data sets there is no one stop solution to improve the accuracy of the prediction model. In most cases, synthetic techniques like SMOTE will outperform the conventional oversampling and undersampling methods. Bagging improves stability & accuracy of machine learning algorithms. Boosting is an ensemble technique to combine weak learners to create a strong learner that can make accurate predictions.
+When faced with imbalanced data sets there is no one stop solution to improve the accuracy of the prediction model. In most cases, synthetic techniques like SMOTE will outperform the conventional oversampling and undersampling methods. In this pattern, we can see the changes in the output with different runs using different techniques and users can play around a bit with the parameters tuning to arrive at optimum results. This is an attempt to demonstrate the methodology to handle imbalanced data and generate predictive models. 
     
   
 # Troubleshooting

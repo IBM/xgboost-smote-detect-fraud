@@ -67,9 +67,11 @@ Sign up for IBM [**Cloud**](https://console.bluemix.net/). By clicking on create
 Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/). 
 
 Click on New project and select Data Science as per below.
+
 ![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/new_project.PNG)
 
 Define the project by giving a Name and hit 'Create'.
+
 ![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/define_project.PNG)
 
 By creating a project in Watson Studio a free tier ``Object Storage`` service will be created in your IBM Cloud account. Choose the storage type as Cloud Object Storage for this code pattern.
@@ -88,6 +90,9 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 ![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/create_notebook.PNG)
 
 ## 4. Add the data
+
+[Clone this repo](https://github.com/IBM/xgboost-smote-detect-fraud)
+Navigate to [creditcard.csv](https://github.com/IBM/xgboost-smote-detect-fraud/tree/master/data) and save the file on the disk.
 
 Use `Find and Add Data` (look for the `10/01` icon)
 and its `Files` tab. From there you can click

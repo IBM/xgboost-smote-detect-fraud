@@ -85,7 +85,7 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 * Enter a name for the notebook.
 * Optionally, enter a description for the notebook.
 * Enter this Notebook URL: https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/notebook/Fraud_Detection.ipynb
-* Select the free Anaconda runtime.
+* Select the runtime (1vCPU and 4GBRAM)
 * Click the `Create` button.
 
 ![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/create_notebook.PNG)

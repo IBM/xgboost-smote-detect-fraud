@@ -4,7 +4,7 @@
 
 > The data file in the `data` directory - `creditcard.csv` has been downloaded from https://www.kaggle.com/mlg-ulb/creditcardfraud/data . The data file used in this pattern is the subset of the original data downloaded from Kaggle where random samples of 20% observations has been extracted from the original data. 
 
-Citation : Andrea Dal Pozzolo, Olivier Caelen, Reid A. Johnson and Gianluca Bontempi. Calibrating Probability with Undersampling for Unbalanced Classification. In Symposium on Computational Intelligence and Data Mining (CIDM), IEEE, 2015
+> Citation : Andrea Dal Pozzolo, Olivier Caelen, Reid A. Johnson and Gianluca Bontempi. Calibrating Probability with Undersampling for Unbalanced Classification. In Symposium on Computational Intelligence and Data Mining (CIDM), IEEE, 2015
 
 Credit-card fraud is a growing problem worldwide which costs upwards of billions of dollars per year. It is a wide-ranging term for theft and fraud committed using or involving a payment card, such as a credit card or debit card, as a fraudulent source of funds in a transaction. The purpose may be to obtain goods without paying, or to obtain unauthorized funds from an account. According to 2016 data released by ACI Worldwide and financial industry consultant Aite Group, nearly 1 in 3 consumers globally have been victimized by card fraud in the past five years. The benchmark survey also reported that 14 of the 17 countries surveyed experienced an increase in card fraud between 2014 and 2016. A 2016 iovation/Aite Group study projected impact on financial fraud reports that credit card fraud losses may climb to as much as $10 billion in the United States alone by 2020. Therefore, it becomes the need of the hour to use technology and reduce these alarming numbers.
 

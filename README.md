@@ -1,6 +1,6 @@
-# Fraud prediction using imbalanced data
+# Fraud prediction using skewed data
 
-> We will demonstrate the methodology to build predictive models on imbalanced data by selecting an example of fraudulent transactions in the financial institutions. This methodology can be applied to any domain to generate predictive system on imbalanced data.
+> We will demonstrate the methodology to build predictive models on highly skewed data by selecting an example of fraudulent transactions in the financial institutions. This methodology can be applied to any domain to generate predictive system on skewed datasets.
 
 > The data file in the `data` directory - `creditcard.csv` has been downloaded from https://www.kaggle.com/mlg-ulb/creditcardfraud/data . The data file used in this pattern is the subset of the original data downloaded from Kaggle where random samples of 20% observations has been extracted from the original data. 
 
@@ -148,7 +148,7 @@ Depending on the system configueration, we can select the Bagging or Boosting Al
 
 ![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/flow.PNG)
 
-When faced with imbalanced data sets there is no one stop solution to improve the accuracy of the prediction model. In most cases, synthetic techniques like SMOTE will outperform the conventional oversampling and undersampling methods. In this pattern, we can see the changes in the output with different runs using different techniques and users can play around a bit with the parameters tuning to arrive at optimum results. This is an attempt to demonstrate the methodology to handle imbalanced data and generate predictive models. 
+When faced with imbalanced data sets there is no one stop solution to improve the accuracy of the prediction model. In most cases, synthetic techniques like SMOTE will outperform the conventional oversampling and undersampling methods. In this pattern, we can see the changes in the output with different runs using different techniques and users can play around a bit with the parameters tuning to arrive at optimum results. This is an attempt to demonstrate the methodology to handle skewed data and generate predictive models. 
     
   
 # Troubleshooting

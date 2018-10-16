@@ -149,6 +149,15 @@ Depending on the system configueration, we can select the Bagging or Boosting Al
 ![](https://github.com/IBM/xgboost-smote-detect-fraud/blob/master/image/flow.PNG)
 
 When faced with imbalanced data sets there is no one stop solution to improve the accuracy of the prediction model. In most cases, synthetic techniques like SMOTE will outperform the conventional oversampling and undersampling methods. In this pattern, we can see the changes in the output with different runs using different techniques and users can play around a bit with the parameters tuning to arrive at optimum results. This is an attempt to demonstrate the methodology to handle skewed data and generate predictive models. 
+
+## Usecases
+
+This pattern can be used for predicting binary outcome (classification problem) in any domain. Some of the usecases are listed below.
+
+* Predict the failure of pumps & compressors.
+* Predict the probability of minority class opting for a service.
+* Predict the probability of a rare event occurance.
+* Identify an optimum sampling technique to handle data imbalance.
     
   
 # Troubleshooting

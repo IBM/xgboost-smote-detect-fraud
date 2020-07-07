@@ -2,7 +2,7 @@
 
 > We will demonstrate the methodology to build predictive models on highly skewed data by selecting an example of fraudulent transactions in the financial institutions. This methodology can be applied to any domain to generate predictive system on skewed datasets.
 
-> The data file in the `data` directory - `creditcard.csv` has been downloaded from ![Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud/data). The data file used in this pattern is the subset of the original data downloaded from Kaggle where random samples of 20% observations has been extracted from the original data. 
+> The data file in the `data` directory - `creditcard.csv` has been downloaded from [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud/data). The data file used in this pattern is the subset of the original data downloaded from Kaggle where random samples of 20% observations has been extracted from the original data. 
 
 > Citation : Andrea Dal Pozzolo, Olivier Caelen, Reid A. Johnson and Gianluca Bontempi. Calibrating Probability with Undersampling for Unbalanced Classification. In Symposium on Computational Intelligence and Data Mining (CIDM), IEEE, 2015
 
